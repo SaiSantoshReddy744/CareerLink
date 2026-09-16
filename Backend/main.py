@@ -3,8 +3,17 @@ from database import engine, Base,get_db
 from sqlalchemy.orm import Session
 from schemas import UserCreate
 from models import User
+from fastapi.middleware.cors import CORSMiddleware
+
 Base.metadata.create_all(bind=engine)
 app = FastAPI(title="CareerLink")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def home():

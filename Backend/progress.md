@@ -33,3 +33,35 @@ CareerLink/
 ├── README.md
 ├── PROGRESS.md
 └── .gitignore
+
+---
+
+## Day 2 — React Frontend & Backend Integration ✅
+
+### **Completed**
+
+- React frontend setup using Vite
+- Connected React frontend with FastAPI backend
+- Created CareerLink landing page
+- Added job search interface
+- Added user registration form
+- Added candidate and recruiter role selection
+- Displayed registered users dynamically
+- Created modern and responsive UI
+- Integrated frontend with User CRUD APIs
+
+### **Tech Used**
+
+- React
+- JavaScript
+- CSS
+- FastAPI
+- REST APIs
+
+### **Status**
+
+**Day 2 complete — React frontend connected with FastAPI backend.**
+
+### **Next**
+
+**Day 3 — Authentication, JWT & Role-Based Access**
