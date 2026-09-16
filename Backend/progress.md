@@ -26,7 +26,7 @@
 
 ### **Project Structure**
 
-```text
+---text
 CareerLink/
 ├── Backend/
 ├── Frontend/
@@ -34,7 +34,6 @@ CareerLink/
 ├── PROGRESS.md
 └── .gitignore
 
----
 
 ## Day 2 — React Frontend & Backend Integration ✅
 
